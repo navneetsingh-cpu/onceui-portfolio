@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: 'Full Stack Developer',
-  avatar: '/images/avatar.jfif',
+  avatar: '/images/avatar.jpg',
   location: 'America/Toronto', // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ['English'], // optional: Leave the array empty if you don't want to display languages
 };
@@ -132,14 +132,7 @@ const about = {
             GraphQL library.
           </>,
         ],
-        images: [
-          {
-            src: '/images/work/Logo_Ben_Head.jpg',
-            alt: 'Once UI Project',
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
         company: 'Crosscap Media Services',
@@ -203,7 +196,9 @@ const about = {
     skills: [
       {
         title: 'Javascript',
-        description: <>Building next gen fullstack apps with Next.js, Angular, React</>,
+        description: (
+          <>Building next gen fullstack apps with Next.js, Angular, React</>
+        ),
         // optional: leave the array empty if you don't want to display images
         images: [],
       },
